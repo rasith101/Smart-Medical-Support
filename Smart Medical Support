@@ -1,0 +1,900 @@
+Source Code:
+Style.css
+.mainheader{
+height: 110px;
+background-color: skyblue;
+text-align: center;
+}
+.navigation{
+font-size: 25px;
+font-style: normal;
+text-align: right;
+color: black;
+padding-bottom: 1px;
+
+}
+.navigation &gt;list{
+display: inline-block;
+padding: 15px;
+}
+.hedtwo &gt;h2{
+height: 110px;
+text-align: center;
+color: green;
+font-style: none;
+animation: cubic-bezier(0.215, 0.610, 0.355, 1);
+animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.imgalg1{
+transition: .6s;
+transform-style: preserve-3d;
+transform: rotate();
+}
+.imgalg2{
+padding-left: 10%;
+padding-right: 15px;
+transition: .6s;
+}
+.imgalg3{
+padding-left: 9%;
+transition: .6s;
+}
+.imgalg4{
+padding-left: 10%;
+transition: .6s;
+}
+.imgalg5{
+padding-left: 10%;
+transition: .6s;
+}
+.imgalg6{
+padding-left: 10%;
+transition: .6s;
+}
+.about{
+text-align:center;
+color: green;
+font-size: 0.7cm;
+}
+.abtsec{
+text-align: center;
+}
+.container{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+background-color: skyblue;
+}
+a{
+text-decoration: none;
+color: #555;
+}
+.btn{
+background:rgb(179, 233, 119);
+text-align: center;
+padding: 20px 30px;
+margin: 30px;
+border-radius: 30px;
+}
+.abtsec{
+font-style: normal;
+color: black;
+font-size: 1cm;
+}
+.foter{
+height: 300px;
+background-color:grey;
+}
+.foter&gt;p{
+color: green;
+transform: skewX(-50%,-50%);
+font-size: 0.7cm;
+padding-top: 2cm;
+}
+.foter &gt;u1{
+position: absolute;
+top: 50%;
+left: 50%;
+padding: 0%;
+margin: 0%;
+transform: translate(-50%,-50%);
+display: flex;
+padding-left: 100%;
+}
+.foter &gt;ul&gt;li{
+list-style: none;
+margin: 0% 15px;
+text-align: center;
+display: inline-block;
+padding-top: 5%;
+
+}
+.foter &gt;ul&gt;li&gt;.fa{
+font-size: 30px;
+line-height: 30px;
+transition: .6s;
+color: red;
+}
+.foter &gt;ul&gt;li&gt;.fa:hover{
+background-color: wheat;
+}
+.foter &gt;ul&gt;li&gt;a{
+position: relative;
+display: block;
+width: 60px;
+height: 60px;
+border-radius: 50px;
+background-color: seashell;
+text-align: center;
+transition: .6s;
+box-shadow: 0ch 5px 4px rgba(red, green, blue, alpha);
+display: inline-block;
+}
+.foter &gt;ul&gt;li&gt;a:hover{
+transform: translate(0px,-10px);
+}
+.loginform{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+color: lightgray;
+background-image: image();
+}
+.logindetails{
+padding-left: 17.5cm;
+padding-top: 5cm;
+}
+.patient{
+padding-left: 49.5%;
+font-size: 0.55cm;
+}
+.lab{
+padding-left: 49.5%;
+font-size: 0.55cm;
+}
+.doctor{
+padding-left: 49.5%;
+font-size: 0.55cm;
+}
+.loginform{
+background-image: url(image/loginpage.jpg);
+width: 1300px;
+height: 725px;
+color: rgb(113, 171, 230);
+background-color: rgb(113, 171, 230);
+background-repeat: repeat-x;
+}
+.containerone{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+.signuplink{
+text-align: center;
+}
+.signuplogo{
+text-align: center;
+margin: 24px 0 12px 0;
+}
+.avatar{
+width: 40%;
+border-radius: 50%;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+input[type=text], input[type=password], input[type=number], input[type=date] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+button {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+button:hover {
+opacity: 0.8;
+}
+.cancelbtn {
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
+}
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+}
+.containerthree{
+padding: 15px 50px;
+}
+.windowsize{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+.patienttable {
+border: 1px solid black;
+padding-top: 10px;
+width: 18cm;
+margin-left: 8cm;
+}
+.containerfour{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+background-color: white;
+}
+.foter{
+height: 300px;
+background-color:grey;
+}
+.foter&gt;p{
+color: green;
+transform: skewX(-50%,-50%);
+font-size: 0.7cm;
+padding-top: 2cm;
+}
+.foter &gt;u1{
+position: absolute;
+top: 50%;
+left: 50%;
+padding: 0%;
+margin: 0%;
+transform: translate(-50%,-50%);
+display: flex;
+padding-left: 100%;
+}
+.foter &gt;ul&gt;li{
+list-style: none;
+margin: 0% 15px;
+text-align: center;
+display: inline-block;
+padding-top: 5%;
+
+}
+.foter &gt;ul&gt;li&gt;.fa{
+font-size: 30px;
+line-height: 30px;
+transition: .6s;
+color: red;
+}
+.foter &gt;ul&gt;li&gt;.fa:hover{
+background-color: wheat;
+}
+.foter &gt;ul&gt;li&gt;a{
+position: relative;
+display: block;
+width: 60px;
+height: 60px;
+border-radius: 50px;
+background-color: seashell;
+text-align: center;
+transition: .6s;
+box-shadow: 0ch 5px 4px rgba(red, green, blue, alpha);
+display: inline-block;
+}
+.foter &gt;ul&gt;li&gt;a:hover{
+transform: translate(0px,-10px);
+}
+Scheduleappointment.jsp
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>Schedule</title>
+ </head>
+ <body>
+ <%@ page import="java.sql.*,java.io.*,java.util.*" %>
+<div class="mainheader">
+ Smart Medical System
+ </div>
+<%
+ String pid = request.getParameter("spid");
+ out.println(pid);
+String specialist=request.getParameter("specialist");
+//out.println(specialist);
+Class.forName("com.mysql.jdbc.Driver");
+java.sql.Connection con = 
+DriverManager.getConnection("jdbc:mysql://localhost:3306/healthcaresystem","root","asdf");
+Statement st=con.createStatement();
+//String sql="insert into sss values"+"(+no+,'+name+')";
+//int i = st.executeUpdate("insert into stafftab(uname,pwd) values ('" + usname + "','" + pwds + 
+"')");
+ String sql="SELECT * FROM doctors WHERE specialization='"+specialist+"'";
+ ResultSet rs1 = st.executeQuery(sql);
+while(rs1.next()){
+%>
+<table> 
+ <tr> 
+ <th>
+ <td>Doctor Name:<br><br>Experience<br><br>Mobile Number:<br><br>Mail 
+Id:<br><br>Address:<br><br>Specialization:</td></th>
+ <th><td>
+ <% String did=rs1.getString("doctorid");%><br>
+ <% String dname=rs1.getString("doctorname"); 
+ out.println(dname); %> <br><br>
+ <% String dmail=rs1.getString("experience"); 
+ out.println(dmail); %><br><br>
+ <% String dspl=rs1.getString("mobilenumber"); 
+ out.println(dspl);%> <br><br>
+ <% String dmob=rs1.getString("doctormail"); 
+out.println(dmob);%> <br><br>
+ <% String address=rs1.getString("Address"); 
+ out.println(address);%> <br><br>
+ <% String spc=rs1.getString("specialization"); 
+ out.println(spc);%> <br><br>
+ 
+ <% String patid =(String)session.getAttribute("ppid");
+ out.println(patid);%>
+ </td></th></tr>
+ </table> 
+ 
+<form action="bookdoctor.jsp">
+ <input type="hidden" name="spid" value="<%= patid %>" />
+ <input type="hidden" name="did" value="<%= did %>" />
+ <button type="submit">Schedule an Appointment</button>
+ </form>
+ <%
+ }
+ %>
+ </body>
+</html>
+Confirmedschedules.jsp
+<%
+String docid =(String) session.getAttribute("doctorid");
+out.println(docid);
+Class.forName("com.mysql.jdbc.Driver");
+java.sql.Connection 
+con= DriverManager.getConnection("jdbc:mysql://localhost:3306/healthcaresystem","root","asdf");
+Statement st=con.createStatement();
+String sql="SELECT * FROM requestslot WHERE did='"+docid+"' and status='Confirmed' ";
+ResultSet rs=st.executeQuery(sql);
+while(rs.next()){
+ out.println(rs.getString("pid"));
+ out.println(rs.getString("timing"));
+ out.println(rs.getString("requestid"));
+ 
+}%>
+Updateprescription.jsp
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>JSP Page</title>
+ </head>
+ <body>
+ <%@ page import="java.sql.*,java.io.*,java.util.*" %>
+<form action="patientlogincomplete.jsp" method="post">
+ <div class="imgcontainer">
+ <img src="image/img_avatar2.png" alt="Avatar" class="avatar">
+ </div>
+<%
+ String pid = request.getParameter("pid");
+ String date = request.getParameter("date");
+ String cdiagnosis = request.getParameter("cdiagnosis");
+ String diagnosis = request.getParameter("diagnosis");
+ String drugA = request.getParameter("drug1");
+ String drugB = request.getParameter("drug2");
+ String drugC = request.getParameter("drug3");
+ String drugD = request.getParameter("drug4");
+ String duration = request.getParameter("duration");
+ String prescribedby = request.getParameter("prescribedby");
+ String severity = request.getParameter("severity");
+ String summary = request.getParameter("summary");
+ String notes = request.getParameter("notes");
+ String pname = request.getParameter("pname");
+ 
+Class.forName("com.mysql.jdbc.Driver");
+java.sql.Connection con = 
+DriverManager.getConnection("jdbc:mysql://localhost:3306/healthcaresystem","root","asdf");
+Statement st=con.createStatement();
+String sql = "INSERT INTO prescription(pid, date, chronicdiag, diagnosis, drugA, drugB, drugC, drugD, 
+duration, prescribedby, severity, summary, notes,pname) VALUES 
+('"+pid+"','"+date+"','"+cdiagnosis+"','"+diagnosis+"','"+drugA+"','"+drugB+"','"+drugC+"','"+drugD+"','"
++duration+"','"+prescribedby+"','"+severity+"','"+summary+"','"+notes+"','"+pname+"')";
+int n =st.executeUpdate(sql);
+if(n==1){
+out.println("Done!!");
+out.println("");
+out.println("Prescription Updated for the patient");
+}
+else{
+ out.println("We are sorry!");
+ out.println("");
+ out.println("Can you check if the values are updated correctly");
+}
+%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>JSP Page</title>
+ </head>
+ <body>
+ <div class="mainheader">
+ Smart Medical System
+ </div>
+ <%@ page import="java.sql.*,java.io.*,java.util.*" %>
+<%
+ String pid = request.getParameter("spid");
+String did=request.getParameter("did");
+out.println(pid);
+String slotB="";
+String slotA="";
+String date=request.getParameter("slotd");
+String patid =(String)session.getAttribute("ppid");
+ out.println(patid);
+ String status = "Requested";
+Class.forName("com.mysql.jdbc.Driver");
+java.sql.Connection con = 
+DriverManager.getConnection("jdbc:mysql://localhost:3306/healthcaresystem","root","asdf");
+//Statement st= con.createStatement();
+//ResultSet rs=st.executeQuery("INSERT INTO name(NAME) values(?)");
+//* PreparedStatement st=con.prepareStatement("INSERT INTO name(NAME) values(?)");
+//st.setString(1,name);
+//st.executeUpdate();
+//out.println("welcome"+name);*/
+Statement st=con.createStatement();
+//String sql="insert into sss values"+"(+no+,'+name+')";
+//int i = st.executeUpdate("insert into stafftab(uname,pwd) values ('" + usname + "','" + pwds + "')");
+ 
+ 
+ String sql1 ="SELECT * FROM doctorschedules WHERE did='"+did+"'";
+ 
+ 
+ResultSet rs = st.executeQuery(sql1);
+while(rs.next()){
+slotA=rs.getString("did");
+slotB=rs.getString("Timing"); 
+ out.println(slotB);
+ String slotC=rs.getString("slot"); 
+out.println(slotC);
+String slotd=rs.getString("date").toString(); 
+out.println("\n");
+out.println(slotd);
+%>
+</td>
+</tr>
+ </tr>
+ <div class="bookslotcs"></div>
+ <form action="bookslot.jsp">
+ <input type="hidden" name="spid" value="<%= pid %>" />
+ <input type="hidden" name="did" value="<%= slotA %>" />
+ <input type="hidden" name="time" value="<%= slotB %>" />
+ <input type="hidden" name="date" value="<%= slotd %>" />
+ <div class="container">
+ 
+ 
+ <button type="submit">Book SLot</button>
+ </form> 
+ 
+ </table>
+</div>
+ 
+ <% 
+ 
+ } 
+%>
+ </body>
+</html>
+<style>
+ .bookslotcs{
+ text-align: center
+ }
+ 
+</style>
+Bookslot.jsp
+<%--
+ Document : bookslot
+ Created on : 14 Mar, 2021, 12:38:56 AM
+ Author : kannan
+--%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>JSP Page</title>
+ </head>
+ <body>
+ <%@ page import="java.sql.*,java.io.*,java.util.*" %>
+ <div class="mainheader">
+ Smart Medical System
+ </div>
+<%
+String did=request.getParameter("did");
+String status = "Requested";
+String patid=request.getParameter("spid");
+out.println(patid);
+String time=request.getParameter("time");
+out.println(time);
+String slotd=request.getParameter("date");
+out.println(slotd);
+Class.forName("com.mysql.jdbc.Driver");
+java.sql.Connection con = 
+DriverManager.getConnection("jdbc:mysql://localhost:3306/healthcaresystem","root","asdf");
+//Statement st= con.createStatement();
+//ResultSet rs=st.executeQuery("INSERT INTO name(NAME) values(?)");
+//* PreparedStatement st=con.prepareStatement("INSERT INTO name(NAME) values(?)");
+//st.setString(1,name);
+//st.executeUpdate();
+//out.println("welcome"+name);*/
+Statement st=con.createStatement();
+String sq1 = "Select * from `requestslot` where pid='"+patid+"'";
+ResultSet rs = st.executeQuery(sq1);
+if(rs.next()){
+ String dbpid = rs.getString("pid");
+ String dbtime = rs.getString("timing");
+ String dbdate = rs.getString("date");
+if((dbpid != patid) && (dbtime != time) && (slotd != dbdate))
+{
+ 
+String sq = "INSERT INTO `requestslot`(`pid`, `did`, `timing`, `status`, `date`) VALUES 
+('"+patid+"','"+did+"','"+time+"','"+status+"','"+slotd+"')";
+st.executeUpdate(sq);
+ String sql ="select * from doctors where doctorid='"+did+"' ";
+ResultSet rs1 = st.executeQuery(sql);
+while(rs1.next()){
+%>
+<table>
+ <tr><b>Your Appointment is scheduled succesfully<br><br><!-- comment -->
+ Please find the details</b><br><br>
+ <td>Doctor Name:<br><br>Mail ID<br><br>Specialization: <br><br>Contact :<br><br></td>
+<th><td>
+ 
+<%=rs1.getString("doctorname") %><br><br>
+<%=rs1.getString("doctormail") %><br><br>
+<%=rs1.getString("specialization") %><br><br>
+<%=rs1.getString("mobilenumber") %><br><br>
+</td>
+</th>
+</tr>
+ </tr>
+ </table>
+ <% }
+}
+}
+%>
+doctorlogincomplete.jsp
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>JSP Page</title>
+ </head>
+ <body>
+ <%@ page import="java.sql.*,java.io.*,java.util.*" %>
+<%
+String uname=request.getParameter("uname");
+String psw=request.getParameter("psw");
+Class.forName("com.mysql.jdbc.Driver");
+java.sql.Connection con = 
+DriverManager.getConnection("jdbc:mysql://localhost:3306/healthcaresystem","root","asdf");
+//Statement st= con.createStatement();
+//ResultSet rs=st.executeQuery("INSERT INTO name(NAME) values(?)");
+//* PreparedStatement st=con.prepareStatement("INSERT INTO name(NAME) values(?)");
+//st.setString(1,name);
+//st.executeUpdate();
+//out.println("welcome"+name);*/
+Statement st=con.createStatement();
+ String sql="SELECT * FROM doctors WHERE doctorname='"+uname+"' and PASword = '"+psw+"' ";
+ResultSet rs=st.executeQuery(sql);
+if(rs.next())
+{
+%>
+<div class="patienttable">
+ <table>
+ <tr>
+ <td><img src="image/patient1.jpg" alt="" height="350px"></td>
+ 
+<th>
+<td>
+ <%=rs.getString("doctorid") %><br><br>
+ <%=rs.getString("doctorname") %><br><br>
+<%=rs.getString("doctormail") %><br><br>
+<%=rs.getString("specialization") %><br><br>
+<%=rs.getString("experience") %><br><br>
+<%=rs.getString("mobilenumber") %><br><br>
+<%=rs.getString("dob") %><br><br>
+<%=rs.getString("address") %><br><br>
+<%=rs.getString("gender")%>
+<%
+session.setAttribute("doctorid", rs.getString("doctorid"));
+%><br><br></td>
+</th>
+ </tr>
+ </table>
+ 
+ <button type=button onClick="location.href='prescriptionupdate.html'" value='Update Patient 
+prescription'>Update Patient prescription</button>
+ <button type=button onClick="location.href='Viewschedules.jsp'" value='view schedules'>Confirm 
+status</button>
+ <button type=button onClick="location.href='confirmedschedules.jsp'" value='view schedules'>View 
+upcoming schedules</button>
+ </td></tr>
+ <tr> <td></td><td> <button type=button onClick="location.href='Joinmeeting.html'" 
+value='join'>Join Meeting</button></td></tr>
+ </form>
+ <tr><td></td> <td> <form action="doctorprofileupdate.jsp">
+ <input type="hidden" name="did" value="<%= rs.getString("doctorid") %>" />
+ <button type="submit">Update your Profile</button>
+ </form> 
+<%
+}
+ else
+ {
+ out.println("Please enter a valid Credentials");
+ 
+ }
+ 
+ 
+%>
+ </form>
+ <tr><td></td> <td> <form action="updatescheduleui.html">
+ <input type="hidden" name="did" value="<%= rs.getString("doctorid") %>" />
+ <button type="submit">Update your Schedules here</button>
+ </form> 
+ 
+<button type=button onClick="location.href='docviewpatientpresc.html'" value='Update Patient 
+prescription'>View Patient prescription with Patient ID</button>
+ <button type=button onClick="location.href='index.html'" value='hp'>Click here to view 
+Homepage</button>
+</body>
+</html>
+--%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>JSP Page</title>
+ </head>
+ <body>
+ <%@ page import="java.sql.*,java.io.*,java.util.*" %>
+<form action="patientlogincomplete.jsp" method="post">
+ <div class="imgcontainer">
+ <img src="image/img_avatar2.png" alt="Avatar" class="avatar">
+ </div>
+<%
+ String pid = request.getParameter("pid");
+ String date = request.getParameter("date");
+ String cdiagnosis = request.getParameter("cdiagnosis");
+ String diagnosis = request.getParameter("diagnosis");
+ String drugA = request.getParameter("drug1");
+ String drugB = request.getParameter("drug2");
+ String drugC = request.getParameter("drug3");
+String drugD = request.getParameter("drug4");
+ String duration = request.getParameter("duration");
+ String prescribedby = request.getParameter("prescribedby");
+ String severity = request.getParameter("severity");
+ String summary = request.getParameter("summary");
+ String notes = request.getParameter("notes");
+ String pname = request.getParameter("pname");
+ 
+Class.forName("com.mysql.jdbc.Driver");
+java.sql.Connection con = 
+DriverManager.getConnection("jdbc:mysql://localhost:3306/healthcaresystem","root","asdf");
+Statement st=con.createStatement();
+String sql = "INSERT INTO prescription(pid, date, chronicdiag, diagnosis, drugA, drugB, drugC, drugD, 
+duration, prescribedby, severity, summary, notes,pname) VALUES 
+('"+pid+"','"+date+"','"+cdiagnosis+"','"+diagnosis+"','"+drugA+"','"+drugB+"','"+drugC+"','"+drugD+"','"
++duration+"','"+prescribedby+"','"+severity+"','"+summary+"','"+notes+"','"+pname+"')";
+//String sql="UPDATE prescription SET 
+pid='"+pid+"',date='"+date+"',chronicdiag='"+cdiagnosis+"',diagnosis='"+diagnosis+"',drugA='"+drugA+
+"',drugB='"+drugB+"',drugC='"+drugC+"',drugD='"+drugD+"',duration='"+duration+"',prescribedby='"+p
+rescribedby+"',severity='"+severity+"',summary='"+summary+"',notes='"+notes+"' ";
+//int i = st.executeUpdate("insert into stafftab(uname,pwd) values ('" + usname + "','" + pwds + "')");
+int n =st.executeUpdate(sql);
+if(n==1){
+out.println("Done!!");
+out.println("");
+out.println("Prescription Updated for the patient");
+}
+else{
+ out.println("We are sorry!");
+ out.println("");
+ out.println("Can you check if the values are updated correctly");
+}
+%
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>JSP Page</title>
+ </head>
+ <body>
+ <div class="mainheader">
+ Smart Medical System
+</div>
+ <%@ page import="java.sql.*,java.io.*,java.util.*" %>
+<form action="patientlogincomplete.jsp" method="post">
+ <div class="imgcontainer">
+ <img src="image/img_avatar2.png" alt="Avatar" class="avatar">
+ </div>
+<%
+String spid = request.getParameter("spid");
+//out.println(spid);
+Class.forName("com.mysql.jdbc.Driver");
+java.sql.Connection con = 
+DriverManager.getConnection("jdbc:mysql://localhost:3306/healthcaresystem","root","asdf");
+Statement st=con.createStatement();
+String sql1 ="select * from prescription where pid='"+spid+"' ";
+ResultSet rs1 = st.executeQuery(sql1);
+while(rs1.next()){
+ 
+ %>
+ 
+ <table><tr>
+ <th>
+ <br><br> <td>Patient ID:<br><br>Date <br><br>Chronic disease<br><br>Current 
+diagnosis:<br><br>Course duration<br><br>Prescribed By 
+Doctor<br><br>Severity<br><br>Summary<br><br>Additional info<br><br>Drugs 1<br><br>Drugs 
+1<br><br>Drugs 1<br><br>Drugs 1<br><br></td>
+ </th>
+ <th>
+ <td><%= rs1.getString("pid") %><br><br>
+<%= rs1.getString("date") %><br><br>
+<%=rs1.getString("chronicdiag") %><br><br>
+<%=rs1.getString("diagnosis") %><br><br>
+<%=rs1.getString("duration") %><br><br>
+<%=rs1.getString("prescribedby") %><br><br>
+<%=rs1.getString("severity") %><br><br>
+<%=rs1.getString("summary") %><br><br>
+<%=rs1.getString("notes") %><br><br>
+<%= rs1.getString("pname") %><br><br>
+<%=rs1.getString("drugA") %><br><br>
+<%=rs1.getString("drugB") %><br><br>
+<%=rs1.getString("drugC") %><br><br>
+<%=rs1.getString("drugD") %><br><br>
+ </td></th></tr>
+</table>
+<%
+ }
+%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>Schedule</title>
+ </head>
+ <body>
+ <%@ page import="java.sql.*,java.io.*,java.util.*" %>
+ <div class="mainheader">
+ Smart Medical System
+ </div>
+<%
+String specialist=request.getParameter("specialist");
+//out.println(specialist);
+Class.forName("com.mysql.jdbc.Driver");
+java.sql.Connection con = 
+DriverManager.getConnection("jdbc:mysql://localhost:3306/healthcaresystem","root","asdf");
+//Statement st= con.createStatement();
+//ResultSet rs=st.executeQuery("INSERT INTO name(NAME) values(?)");
+//* PreparedStatement st=con.prepareStatement("INSERT INTO name(NAME) values(?)");
+//st.setString(1,name);
+//st.executeUpdate();
+//out.println("welcome"+name);*/
+Statement st=con.createStatement();
+//String sql="insert into sss values"+"(+no+,'+name+')";
+//int i = st.executeUpdate("insert into stafftab(uname,pwd) values ('" + usname + "','" + pwds + "')");
+ String sql="SELECT * FROM doctors WHERE specialization='"+specialist+"'";
+ ResultSet rs1 = st.executeQuery(sql);
+while(rs1.next()){
+%>
+<table> 
+<tr> 
+ <th>
+ <td>Doctor Name:<br><br>Experience<br><br>Mobile Number:<br><br>Mail 
+Id:<br><br>Address:<br><br>Specialization:</td></th>
+ <th><td>
+ <% String did=rs1.getString("doctorid");%><br>
+ <% String dname=rs1.getString("doctorname"); 
+ out.println(dname); %> <br><br>
+ <% String dmail=rs1.getString("experience"); 
+ out.println(dmail); %><br><br>
+ <% String dspl=rs1.getString("mobilenumber"); 
+ out.println(dspl);%> <br><br>
+ <% String dmob=rs1.getString("doctormail"); 
+ out.println(dmob);%> <br><br>
+ <% String address=rs1.getString("Address"); 
+ out.println(address);%> <br><br>
+ <% String spc=rs1.getString("specialization"); 
+ out.println(spc);%> <br><br>
+ 
+ 
+ </td></th></tr>
+ </table> 
+ 
+<form action="bookdoctor.jsp">
+ <input type="hidden" name="did" value="<%= did %>" />
+ <button type="submit">Schedule an Appointment</button>
+ </form>
+ 
+<%
+ }
+ %>
+ </body>
+</html>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>JSP Page</title>
+ </head>
+ <body>
+<%@ page import="java.sql.*,java.io.*,java.util.*" %>
+ <h1>Hello !</h1>
+ </body>
+</html>
+<%
+ String uname = request.getParameter("uname");
+ String psw = request.getParameter("psw");
+ String mbn = request.getParameter("mbn");
+ String dob = request.getParameter("dob");
+ String mail = request.getParameter("mail");
+ String addres = request.getParameter("addres");
+ String gen = request.getParameter("gen");
+ String wgh = request.getParameter("wgh");
+ String age = request.getParameter("age");
+ String pid = request.getParameter("pid");
+ String count = "";
+ 
+Class.forName("com.mysql.jdbc.Driver");
+java.sql.Connection con = 
+DriverManager.getConnection("jdbc:mysql://localhost:3306/healthcaresystem","root","asdf");
+Statement st=con.createStatement();
+String sql = "INSERT INTO `patient`(`pid`, `pname`, `age`, `mobilenumber`, `dob`, `mailid`, `address`, 
+`weight`, `gender`, `password`) VALUES 
+('"+pid+"','"+uname+"','"+age+"','"+mbn+"','"+dob+"','"+mail+"','"+addres+"','"+wgh+"','"+gen+"','"+psw
++"')";
+//String sql = "INSERT INTO `doctors`(`doctorid`, `doctorname`, `doctormail`, `specialization`, 
+`PASword`, `experience`, `mobilenumber`, `dob`, `Address`, `Gender`, `count`) VALUES 
+('"+did+"','"+uname+"','"+mail+"','"+spc+"','"+psw+"','"+experience+"','"+mbn+"','"+dob+"','"+addres+"','
+"+gen+"','"+count+"')";
+//String sql = "INSERT INTO prescription(pid, date, chronicdiag, diagnosis, drugA, drugB, drugC, 
+drugD, duration, prescribedby, severity, summary, notes,pname) VALUES 
+('"+pid+"','"+date+"','"+cdiagnosis+"','"+diagnosis+"','"+drugA+"','"+drugB+"','"+drugC+"','"+drugD+"','"
++duration+"','"+prescribedby+"','"+severity+"','"+summary+"','"+notes+"','"+pname+"')";
+//String sql="UPDATE prescription SET 
+pid='"+pid+"',date='"+date+"',chronicdiag='"+cdiagnosis+"',diagnosis='"+diagnosis+"',drugA='"+drugA+
+"',drugB='"+drugB+"',drugC='"+drugC+"',drugD='"+drugD+"',duration='"+duration+"',prescribedby='"+p
+rescribedby+"',severity='"+severity+"',summary='"+summary+"',notes='"+notes+"' ";
+//int i = st.executeUpdate("insert into stafftab(uname,pwd) values ('" + usname + "','" + pwds + "')");
+int n =st.executeUpdate(sql);
+if(n==1){
+out.println("Done!!");
+out.println("\n");
+out.println("\n");
+out.println("Your profile is enrolled in our Smart medical system");
+}
+else{
+ out.println("We are sorry!");
+ out.println("");
+ out.println("Can you check if the values are updated correctly");
+}
+%>
